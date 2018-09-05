@@ -6,7 +6,7 @@ FROM arnavpon/moreylab-bhim-pipeline
 LABEL description="Ubuntu 17.10 OS + MRtrix3 + AFNI. Used to pre-process fMRI data."
 LABEL maintainer="Arnav Pondicherry <arnavpon@rwjms.rutgers.edu>"
 
-# (1) Update to most recent AFNI version
+# (1) Update to most recent version of AFNI
 RUN echo "Updating AFNI to most recent version..." && echo && \
 	@update.afni.binaries -defaults
 
