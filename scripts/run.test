@@ -33,7 +33,7 @@ else
   set subj = $data_dir/$subj_id  # location of subject's data folder
 
   set anat = $template_dir/vr_base_min_outlier+orig  # outliers file
-  #set anat = $template_dir/ENIGMA_Template.nii.gz  # template file ***
+  #set anat = $template_dir/ENIGMA_Template.nii.gz  # template file *** removed
   set label = AL
 
   set WMset    = wm.erode.18.nii
